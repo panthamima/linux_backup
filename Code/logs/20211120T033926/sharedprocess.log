@@ -1,0 +1,73 @@
+[2021-11-20 03:39:56.532] [sharedprocess] [info] Installing extension: ms-vscode.cpptools-extension-pack
+[2021-11-20 03:40:05.577] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2021-11-20 03:40:05.577] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-wsl
+[2021-11-20 03:40:05.578] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2021-11-20 03:40:05.578] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh
+[2021-11-20 03:40:05.578] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh-edit
+[2021-11-20 03:40:05.579] [sharedprocess] [info] Installing extension: ms-vscode.cmake-tools
+[2021-11-20 03:40:05.580] [sharedprocess] [info] Installing extension: twxs.cmake
+[2021-11-20 03:40:05.580] [sharedprocess] [info] Extension is already requested to install twxs.cmake
+[2021-11-20 03:40:05.580] [sharedprocess] [info] Installing extension: jeff-hykin.better-cpp-syntax
+[2021-11-20 03:40:05.581] [sharedprocess] [info] Installing extension: cschlosser.doxdocgen
+[2021-11-20 03:40:05.581] [sharedprocess] [info] Installing extension: ms-vscode.cpptools-themes
+[2021-11-20 03:40:07.838] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools-themes /home/panthamima/.config/Code/CachedExtensionVSIXs/ms-vscode.cpptools-themes-1.0.0
+[2021-11-20 03:40:07.900] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.3e95be95-8843-4493-896e-7e39ce8c7ed5: ms-vscode.cpptools-themes
+[2021-11-20 03:40:07.902] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-wsl /home/panthamima/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-wsl-0.58.5
+[2021-11-20 03:40:07.936] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/ms-vscode.cpptools-themes-1.0.0
+[2021-11-20 03:40:07.938] [sharedprocess] [info] Extracting completed. ms-vscode.cpptools-themes
+[2021-11-20 03:40:07.957] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.ccd00ccf-5d6d-4b06-bb36-80b4e57aba1a: ms-vscode-remote.remote-wsl
+[2021-11-20 03:40:07.995] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/ms-vscode-remote.remote-wsl-0.58.5
+[2021-11-20 03:40:08.000] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-wsl
+[2021-11-20 03:40:08.254] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh-edit /home/panthamima/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-edit-0.66.1
+[2021-11-20 03:40:08.271] [sharedprocess] [info] Downloaded extension: jeff-hykin.better-cpp-syntax /home/panthamima/.config/Code/CachedExtensionVSIXs/jeff-hykin.better-cpp-syntax-1.15.10
+[2021-11-20 03:40:08.274] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.cd0b4282-908b-41ad-a467-b942a0aa043e: ms-vscode-remote.remote-ssh-edit
+[2021-11-20 03:40:08.308] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.c94f6ad1-0ec8-4923-a7c0-271c635b648f: jeff-hykin.better-cpp-syntax
+[2021-11-20 03:40:08.312] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.66.1
+[2021-11-20 03:40:08.313] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh-edit
+[2021-11-20 03:40:08.338] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/jeff-hykin.better-cpp-syntax-1.15.10
+[2021-11-20 03:40:08.339] [sharedprocess] [info] Extracting completed. jeff-hykin.better-cpp-syntax
+[2021-11-20 03:40:08.438] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh /home/panthamima/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-0.66.1
+[2021-11-20 03:40:08.572] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.c3b45485-43dd-47e1-80af-38698a0c9c76: ms-vscode-remote.remote-ssh
+[2021-11-20 03:40:08.605] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/ms-vscode-remote.remote-ssh-0.66.1
+[2021-11-20 03:40:08.606] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh
+[2021-11-20 03:40:08.672] [sharedprocess] [info] Downloaded extension: ms-vscode.cmake-tools /home/panthamima/.config/Code/CachedExtensionVSIXs/ms-vscode.cmake-tools-1.9.1
+[2021-11-20 03:40:08.789] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /home/panthamima/.config/Code/CachedExtensionVSIXs/ms-vscode.cpptools-1.7.1
+[2021-11-20 03:40:08.823] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-containers /home/panthamima/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-containers-0.205.2
+[2021-11-20 03:40:08.908] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.27ec5552-3c92-4958-afd7-a35dc0c07fba: ms-vscode.cmake-tools
+[2021-11-20 03:40:08.940] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/ms-vscode.cmake-tools-1.9.1
+[2021-11-20 03:40:08.943] [sharedprocess] [info] Extracting completed. ms-vscode.cmake-tools
+[2021-11-20 03:40:09.143] [sharedprocess] [info] Downloaded extension: cschlosser.doxdocgen /home/panthamima/.config/Code/CachedExtensionVSIXs/cschlosser.doxdocgen-1.3.2
+[2021-11-20 03:40:09.568] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.59e8df41-dd29-411f-8d97-c6a82a03ef71: ms-vscode.cpptools
+[2021-11-20 03:40:09.624] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/ms-vscode.cpptools-1.7.1
+[2021-11-20 03:40:09.628] [sharedprocess] [info] Extracting completed. ms-vscode.cpptools
+[2021-11-20 03:40:09.752] [sharedprocess] [info] Downloaded extension: twxs.cmake /home/panthamima/.config/Code/CachedExtensionVSIXs/twxs.cmake-0.0.17
+[2021-11-20 03:40:09.803] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.d1197a54-e7b8-402d-a835-948a0ae1c1da: ms-vscode-remote.remote-containers
+[2021-11-20 03:40:09.844] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/ms-vscode-remote.remote-containers-0.205.2
+[2021-11-20 03:40:09.846] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-containers
+[2021-11-20 03:40:09.961] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.67f6c79a-bbd5-4946-8793-73fb2b1cae0b: twxs.cmake
+[2021-11-20 03:40:09.995] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/twxs.cmake-0.0.17
+[2021-11-20 03:40:09.997] [sharedprocess] [info] Extracting completed. twxs.cmake
+[2021-11-20 03:40:10.242] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.5b676583-9f69-434c-a86a-c52d85713464: cschlosser.doxdocgen
+[2021-11-20 03:40:10.288] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/cschlosser.doxdocgen-1.3.2
+[2021-11-20 03:40:10.289] [sharedprocess] [info] Extracting completed. cschlosser.doxdocgen
+[2021-11-20 03:40:11.540] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools-extension-pack /home/panthamima/.config/Code/CachedExtensionVSIXs/ms-vscode.cpptools-extension-pack-1.1.0
+[2021-11-20 03:40:11.554] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.f1a142ef-c0da-40f6-a451-c280c016dfb8: ms-vscode.cpptools-extension-pack
+[2021-11-20 03:40:11.582] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.1.0
+[2021-11-20 03:40:11.584] [sharedprocess] [info] Extracting completed. ms-vscode.cpptools-extension-pack
+[2021-11-20 03:40:11.596] [sharedprocess] [info] Extension installed successfully: ms-vscode.cpptools-themes
+[2021-11-20 03:40:11.596] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-wsl
+[2021-11-20 03:40:11.607] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh-edit
+[2021-11-20 03:40:11.608] [sharedprocess] [info] Extension installed successfully: jeff-hykin.better-cpp-syntax
+[2021-11-20 03:40:11.609] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh
+[2021-11-20 03:40:11.610] [sharedprocess] [info] Extension installed successfully: ms-vscode.cmake-tools
+[2021-11-20 03:40:11.610] [sharedprocess] [info] Extension installed successfully: ms-vscode.cpptools
+[2021-11-20 03:40:11.611] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-containers
+[2021-11-20 03:40:11.612] [sharedprocess] [info] Extension installed successfully: twxs.cmake
+[2021-11-20 03:40:11.617] [sharedprocess] [info] Extension installed successfully: cschlosser.doxdocgen
+[2021-11-20 03:40:11.618] [sharedprocess] [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+[2021-11-20 03:50:28.665] [sharedprocess] [info] Installing extension: coenraads.bracket-pair-colorizer
+[2021-11-20 03:50:30.889] [sharedprocess] [info] Downloaded extension: coenraads.bracket-pair-colorizer /home/panthamima/.config/Code/CachedExtensionVSIXs/coenraads.bracket-pair-colorizer-1.0.61
+[2021-11-20 03:50:31.389] [sharedprocess] [info] Extracted extension to /home/panthamima/.vscode/extensions/.e32a0d9c-7265-4cf1-a58a-65fa50679407: coenraads.bracket-pair-colorizer
+[2021-11-20 03:50:31.420] [sharedprocess] [info] Renamed to /home/panthamima/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61
+[2021-11-20 03:50:31.421] [sharedprocess] [info] Extracting completed. coenraads.bracket-pair-colorizer
+[2021-11-20 03:50:31.423] [sharedprocess] [info] Extension installed successfully: coenraads.bracket-pair-colorizer

@@ -1,0 +1,532 @@
+Validating found git in: git
+Using git 2.30.2 from git
+> git rev-parse --git-dir
+Open repository: /home/panthamima/clang
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :todo's.txt
+> git ls-files --stage -- /home/panthamima/clang/todo's.txt
+> git cat-file -s 0169f92ac037139882748919d5a7f2d3330d73df
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :todo's.txt
+> git ls-files --stage -- /home/panthamima/clang/todo's.txt
+> git cat-file -s 0169f92ac037139882748919d5a7f2d3330d73df
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :todo's.txt
+> git ls-files --stage -- /home/panthamima/clang/todo's.txt
+> git cat-file -s 0169f92ac037139882748919d5a7f2d3330d73df
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :todo's.txt
+> git ls-files --stage -- /home/panthamima/clang/todo's.txt
+> git cat-file -s 0169f92ac037139882748919d5a7f2d3330d73df
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :todo's.txt
+> git ls-files --stage -- /home/panthamima/clang/todo's.txt
+> git cat-file -s 0169f92ac037139882748919d5a7f2d3330d73df
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :todo's.txt
+> git ls-files --stage -- /home/panthamima/clang/todo's.txt
+> git cat-file -s 0169f92ac037139882748919d5a7f2d3330d73df
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :todo's.txt
+> git ls-files --stage -- /home/panthamima/clang/todo's.txt
+> git cat-file -s 0169f92ac037139882748919d5a7f2d3330d73df
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fscanf.txt
+> git ls-files --stage -- /home/panthamima/clang/fscanf.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :fscanf.txt
+> git ls-files --stage -- /home/panthamima/clang/fscanf.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :fscanf.txt
+> git ls-files --stage -- /home/panthamima/clang/fscanf.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :fscanf.txt
+> git ls-files --stage -- /home/panthamima/clang/fscanf.txt
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/panthamima/clang/test.c
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :fscanf.txt
+> git ls-files --stage -- /home/panthamima/clang/fscanf.txt
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s a765af8543dbefd595f25c22c3f706dff73e7982
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git show --textconv :LetterBase.txt
+> git ls-files --stage -- /home/panthamima/clang/LetterBase.txt
+> git cat-file -s faf7da102facd10ebe8882cce37b57615e00771a
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 43ef23d9a0ddc969c30e661a1892de7edae9fd01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git config --get commit.template
+> git cat-file -s 923550bd5a8444aa95c3f541b526191a2bd0d7c7
+> git show --textconv :main.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/panthamima/clang/.gitignore
+> git cat-file -s bfe0daedb1fa7d8a9f3d0c14ae9edf07a4555777
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 923550bd5a8444aa95c3f541b526191a2bd0d7c7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :c_cite/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_cite/index.html
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :c_cite/style.css
+> git ls-files --stage -- /home/panthamima/clang/c_cite/style.css
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :c_cite/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_cite/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 923550bd5a8444aa95c3f541b526191a2bd0d7c7
+> git show --textconv :c_cite/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_cite/index.html
+> git show --textconv :main.c
+> git ls-files --stage -- /home/panthamima/clang/main.c
+> git cat-file -s 923550bd5a8444aa95c3f541b526191a2bd0d7c7
+> git show --textconv :c_cite/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_cite/index.html
+> git show --textconv :c_cite/style.css
+> git ls-files --stage -- /home/panthamima/clang/c_cite/style.css
+> git show --textconv :c_cite/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_cite/index.html
+> git show --textconv :test.c
+> git ls-files --stage -- /home/panthamima/clang/test.c
+> git cat-file -s 36736ea0e2d14d08da0e8b7dd2794e720dd92a51
+> git show --textconv :c_cite/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_cite/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/panthamima/clang/c_cite/index.html
+> git show --textconv :c_cite/style.css
+> git ls-files --stage -- /home/panthamima/clang/c_cite/style.css
+> git show --textconv :c_cite/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_cite/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :c_site/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_site/index.html
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :c_site/style.css
+> git ls-files --stage -- /home/panthamima/clang/c_site/style.css
+> git show --textconv :c_site/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_site/index.html
+> git show --textconv :c_site/style.css
+> git ls-files --stage -- /home/panthamima/clang/c_site/style.css
+> git show --textconv :c_site/index.html
+> git ls-files --stage -- /home/panthamima/clang/c_site/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :c_site/style.css
+> git ls-files --stage -- /home/panthamima/clang/c_site/style.css

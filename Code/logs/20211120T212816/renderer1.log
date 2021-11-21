@@ -1,0 +1,16 @@
+[2021-11-20 21:28:24.332] [renderer1] [info] Starting extension host with pid 1026.
+[2021-11-20 21:28:24.333] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 126 ms.
+[2021-11-20 21:28:26.943] [renderer1] [error] [Extension Host] (node:1026) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-21 01:32:55.597] [renderer1] [error] spawn xdg-open ENOENT: Error: spawn xdg-open ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-21 01:33:23.772] [renderer1] [error] spawn xdg-open ENOENT: Error: spawn xdg-open ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-11-21 01:33:42.633] [renderer1] [error] spawn xdg-open ENOENT: Error: spawn xdg-open ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)

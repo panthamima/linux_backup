@@ -1,0 +1,7 @@
+[2021-11-20 03:34:15.094] [renderer1] [info] Starting extension host with pid 9084.
+[2021-11-20 03:34:15.095] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 47 ms.
+[2021-11-20 03:34:15.834] [renderer1] [error] [Extension Host] (node:9084) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-20 03:34:18.059] [renderer1] [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/panthamima/.config/i3/config' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/panthamima/.config/i3/config') file:///home/panthamima/.config/i3/config
+[2021-11-20 03:34:19.884] [renderer1] [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/panthamima/.config/i3/config
+[2021-11-20 03:34:25.097] [renderer1] [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/panthamima/.config/i3/config' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/panthamima/.config/i3/config') file:///home/panthamima/.config/i3/config

@@ -1,0 +1,25 @@
+[2021-11-20 03:39:27.574] [renderer1] [info] Starting extension host with pid 9451.
+[2021-11-20 03:39:27.576] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 43 ms.
+[2021-11-20 03:39:28.137] [renderer1] [error] [Extension Host] (node:9451) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-20 04:59:06.418] [renderer1] [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+[2021-11-20 04:59:09.959] [renderer1] [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/panthamima/.config/i3/config' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/panthamima/.config/i3/config') file:///home/panthamima/.config/i3/config
+[2021-11-20 04:59:10.026] [renderer1] [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/panthamima/.config/i3/config' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/panthamima/.config/i3/config') file:///home/panthamima/.config/i3/config
+[2021-11-20 04:59:10.034] [renderer1] [info] [lifecycle]: Shutdown was prevented (id: veto.backups)
+[2021-11-20 04:59:22.159] [renderer1] [info] Starting extension host with pid 10855.
+[2021-11-20 04:59:22.159] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 45 ms.
+[2021-11-20 04:59:23.004] [renderer1] [error] [Extension Host] (node:10855) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-20 04:59:26.699] [renderer1] [error] Could not find category with ID: ms-vscode.cpptools#cppWelcome: Error: Could not find category with ID: ms-vscode.cpptools#cppWelcome
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2785:66441
+    at l.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:69:1712)
+    at N.progressStep (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1716:19321)
+    at N.registerDoneListeners (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1716:21861)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1716:20179
+    at Array.forEach (<anonymous>)
+    at N._registerWalkthrough (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1716:19961)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1716:17346
+    at async Promise.all (index 0)
+    at async N.registerExtensionWalkthroughContributions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1716:14893)
+    at async Promise.all (index 0)
+    at async l._handler (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1716:11253)

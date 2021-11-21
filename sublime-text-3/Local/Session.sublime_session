@@ -158,6 +158,26 @@
 					}
 				},
 				{
+					"contents": "ё",
+					"file": "/home/panthamima/clang/main.c",
+					"file_size": 388,
+					"file_write_time": 132818813595532870,
+					"settings":
+					{
+						"buffer_size": 1,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/panthamima/.config/i3/config",
+					"settings":
+					{
+						"buffer_size": 6123,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
 					"contents": "",
 					"settings":
 					{
@@ -202,7 +222,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 39.0
 			},
 			"find_in_files":
 			{
@@ -233,7 +253,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -249,8 +269,8 @@
 								"selection":
 								[
 									[
-										0,
-										0
+										317,
+										317
 									]
 								],
 								"settings":
@@ -258,14 +278,72 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 561.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/panthamima/clang/main.c",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1,
+										1
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/panthamima/.config/i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6123,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6123,
+										6123
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 8,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
 							"type": "text"
 						},
 						{
-							"buffer": 1,
+							"buffer": 3,
 							"semi_transient": false,
 							"settings":
 							{
@@ -289,7 +367,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -331,7 +409,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,0,1920,1052,1920,1080",
+			"position": "0,0,0,0,0,645,0,1275,1052,1920,1080",
 			"project": "",
 			"replace":
 			{
