@@ -12,30 +12,26 @@
 #PANTHAMIMA STARTUP
 
 exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle"
-exec_always --no-startup-id /home/panthamima/.config/polybar/forest/launch.sh
+#exec_always --no-startup-id /home/panthamima/.config/polybar/forest/launch.sh
 exec_always --no-startup-id feh
 exec --no-startup-id compton
 exec_always feh --bg-scale /home/panthamima/polybar-themes/wallpapers/bg_19.jpg
-exec --no-startup-id imwheel 
+#exec --no-startup-id imwheel 
+
 
 exec --no-startup-id i3-msg 'workspace 1; exec flameshot'
 exec --no-startup-id i3-msg 'workspace 1; exec firefox'
 exec --no-startup-id i3-msg 'workspace 1; exec telegram-desktop'
 exec --no-startup-id i3-msg 'workspace 2; exec mupdf /home/panthamima/Downloads/Telegram\ Desktop/Язык\ Си.pdf 50'
 exec --no-startup-id i3-msg 'workspace 2; exec code'
+exec_always --no-startup-id i3-msg 'workspace 2; exec flatpak run org.telegram.desktop'
 
 #KEYBINDS
 
 bindsym Print exec flameshot gui
-bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
-bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
+bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+ unmute
+bindsym XF86AudioLowerVolume exec amixer -q sset Master 5%- unmute
 bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
-
-
-
-
-#I3 GAPS
-for_window [class="^.*"] border pixel 0
 
 set $mod Mod4
 
@@ -53,6 +49,8 @@ font pango:DejaVu Sans Mono 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+default_border pixel
+for_window [class="^.*"] border pixel 0
 
 # start a terminal
 bindsym $mod+Return exec alacritty
@@ -164,7 +162,6 @@ mode "resize" {
         bindsym k resize grow height 10 px or 10 ppt
         bindsym l resize shrink height 10 px or 10 ppt
         bindsym semicolon resize grow width 10 px or 10 ppt
-
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
