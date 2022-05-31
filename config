@@ -13,22 +13,18 @@
 
 exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle"
 #exec_always --no-startup-id /home/panthamima/.config/polybar/forest/launch.sh
-exec_always --no-startup-id feh
+#exec_always --no-startup-id feh
 #exec --no-startup-id compton
-exec_always feh --bg-scale /home/panthamima/Downloads/images/bg_19.jpg
+#exec_always feh --bg-scale /home/panthamima/polybar-themes/wallpapers/bg_19.jpg
 #exec --no-startup-id imwheel 
 
 
 exec --no-startup-id i3-msg 'workspace 1; exec flameshot'
 #exec --no-startup-id i3-msg 'workspace 1; exec firefox'
-#exec --no-startup-id i3-msg 'workspace 1; exec Telegram'
+#exec --no-startup-id i3-msg 'workspace 1; exec telegram-desktop'
 #exec --no-startup-id i3-msg 'workspace 2; exec mupdf /home/panthamima/Downloads/Telegram\ Desktop/Язык\ Си.pdf 50'
 #exec --no-startup-id i3-msg 'workspace 2; exec code'
-#exec_always --no-startup-id i3-msg 'workspace 4; exec flatpak run org.telegram.desktop'
-#exec_always --no-startup-id i3-msg 'workspace 1; exec /home/panthamima/NEOvim/squashfs-root/usr/bin/nvim'
-#exec_always --no-startup-id i3-msg 'workspace 1; exec /usr/bin/vim'
-#exec_always --no-startup-id i3-msg 'workspace 2; exec Obsidian-0.13.31.AppImage'
-
+#exec_always --no-startup-id i3-msg 'workspace 2; exec flatpak run org.telegram.desktop'
 
 #KEYBINDS
 
@@ -36,6 +32,8 @@ bindsym Print exec flameshot gui
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q sset Master 5%- unmute
 bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
+bindsym XF86MonBrightnessUp exec xrandr --output LVDS-1 --brightness 1 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xrandr --output LVDS-1 --brightness 0.5 # decrease screen brightness
 
 set $mod Mod4
 
@@ -53,27 +51,14 @@ font pango:DejaVu Sans Mono 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-default_border normal
-hide_edge_borders both
-for_window [class="^.*"] border pixel 2
-
-client.focused          4c7899 285577 ffffff 2e9ef4   285577
-client.focused_inactive ##333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #333333 #222222 #888888 #292d2e   #222222
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
-client.placeholder      000000 0c0c0c #ffffff #000000   #0c0c0c
-
-client.background       ffffff
+default_border pixel
+for_window [class="^.*"] border pixel 0
 
 # start a terminal
-bindsym $mod+Return exec alacritty
-bindsym $mod+Shift+n exec ./home/panthamima/NEOvim/squashfs-root/usr/bin/nvim
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
-
-gaps inner 10
-gaps outer -10
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
