@@ -4,8 +4,10 @@
 <h3># Linux first configuration </h3>
 
 https://demirrovv.wordpress.com/2014/03/31/soundset/ - volume settings<br>
-aptitude install alsa-oss alsa-tools alsa-utils alsa-utils-udeb
-https://wiki.debian.org/ru/Keyboard - russian lang installation<br>
+pulseaudio debian
+aptitude install alsa-oss alsa-tools alsa-utils 
+
+/etc/default/keyboard - "us,ru" : "grp:alt_shift_toggle" - russian lang installation<br>
 https://losst.ru/ustanovka-drajvera-nvidia-v-debian-10 - nvidia driver install<br>
 https://habr.com/ru/post/515750/ - i3 i3gaps config<br>
 
